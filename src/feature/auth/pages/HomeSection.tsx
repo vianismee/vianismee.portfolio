@@ -32,7 +32,7 @@ const HomePages = () => {
           title: "Hurry up!",
           description: "Email has been copied!🚀 Let's Connect!",
         })
-      }} className="px-1 py-[5px] bg-[#0c285c] rounded border border-[#008cff] justify-start items-center gap-[11px] flex">
+      }} className="px-1 py-[5px] bg-[#0c285c] rounded border border-[#008cff] justify-start items-center gap-[11px] flex cursor-pointer">
                     <Clipboard size={"20px"}/>
                   </button>
                 </div>

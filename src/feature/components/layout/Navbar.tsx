@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Home from './../../../pages/index';
 
 
 const Navbar = () => {
