@@ -10,7 +10,7 @@ const HomePages = () => {
     return (
         <div className="flex justify-center w-full py-16 gap-[200px] content-center">
             <div>
-              <div className="flex gap-3 py-[8px] px-[15px] rounded-full bg-gradient-to-r from-[#0E3B60] to-[#143D60]/0 to-60% items-center">
+              <div className="flex gap-3 py-[8px] px-[15px] rounded-full bg-linear-to-r from-[#0E3B60] to-[#143D60]/0 to-60% items-center">
                 <div className="h-full">
                   <span className="relative inline-flex size-3 ">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
@@ -42,7 +42,7 @@ const HomePages = () => {
               </div>
             </div>
             <div>
-              <div className="h-[358px] w-[358px] bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl"></div>
+              <div className="h-[358px] w-[358px] bg-linear-to-r from-cyan-500 to-blue-500 rounded-xl"></div>
             </div>
           </div>
     )

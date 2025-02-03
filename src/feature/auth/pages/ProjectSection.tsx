@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react"
 const ProjectSection = () => {
     return (
         <div>
-            <h1 className="text-[48pt] font-bold tracking-[-.03em] mt-[20px]">Featured <span className="bg-gradient-to-br from-[#2476CE] from-0% via-[#00AAFF] via-46% to-[#2963A0] to-100% bg-clip-text text-transparent">Project</span></h1>
+            <h1 className="text-[48pt] font-bold tracking-[-.03em] mt-[20px]">Featured <span className="bg-linear-to-br from-[#2476CE] from-0% via-[#00AAFF] via-46% to-[#2963A0] to-100% bg-clip-text text-transparent">Project</span></h1>
             <div className="w-full p-0 grid grid-cols-3 gap-5 mt-[50px]">
               <div className="col-span-2 w-full h-full px-[48px] border-white/20 border rounded-xl content-center">
                 <h1 className="text-[29pt] font-bold">Homtato Labels</h1>
