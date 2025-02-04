@@ -1,10 +1,11 @@
 
+import { api } from "`/utils/api";
 
 import Head from "next/head";
 import HomeSection from "`/feature/auth/pages/HomeSection";
-
-import { api } from "`/utils/api";
 import ProjectSection from "`/feature/auth/pages/ProjectSection";
+import BlogSection from "`/feature/auth/pages/BlogSection";
+
 
 // import { SectionContainer } from './../feature/components/layout/SectionContainer';
 
@@ -23,6 +24,9 @@ export default function Home() {
         </section>
         <section className="h-screen w-full px-[300px] justify-center content-center">
           <ProjectSection />
+        </section>
+        <section className="w-full content-center px-[300px]">
+          <BlogSection />
         </section>
     </>
   );

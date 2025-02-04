@@ -15,7 +15,7 @@ export default function NotFoundPage() {
                                 </h1>
                                 <p className="text-zinc-500 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elits.</p>
                                 <div className="w-full flex justify-center items-center">
-                                    <div className=" p-[0.2px] rounded-full bg-conic-100 from-black/0 via-white/80 to-black/0">
+                                    <div className=" p-[0.5px] rounded-full bg-conic-100 from-black/0 via-white/80 to-black/0">
                                         <button className="text-white bg-gradient-to-r from-[#566070] to-zinc-900 px-6 py-2 rounded-full cursor-pointer">
                                             <Link href={"/"}>
                                                 Back to Homepage
